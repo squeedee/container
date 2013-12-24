@@ -5,12 +5,12 @@ require File.expand_path('../lib/container/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "container"
   gem.version       = Container::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Stop using singletons and globals}
+  gem.description   = %q{Stop using singletons and globals}
   gem.license       = "MIT"
-  gem.authors       = ["Rasheed Abdu-Aziz"]
-  gem.email         = "squeedee@pivotallabs.com"
-  gem.homepage      = "https://rubygems.org/gems/container"
+  gem.authors       = ["Rasheed Abdul-Aziz"]
+  gem.email         = "squeedee@gmail.com"
+  gem.homepage      = "http://github.com/squeedee/container"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
